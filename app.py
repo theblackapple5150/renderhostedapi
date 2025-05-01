@@ -11,7 +11,7 @@ def multiply():
 
 @app.route('/html', methods=['GET'])
 def writehtml():
-    index_page = '''<html><head><body><h2>Welcome to the page</body></head></html>'''
+    index_page = '''<html><head><body><h2 align="center">Welcome to the page</body></head></html>'''
     return index_page
 
 if __name__ == '__main__':
